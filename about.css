@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color:#F9FAFB;
+    height: 150px;
+    width: 100%;padding: 10px;
+    
+}
+.header img {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 10px;
+}
+.header .im{
+    grid-template-columns: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3; margin-left: 180px;
+   
+}
+.header .nav-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #592C7B;
+    border-bottom-left-radius: 30px;
+    color: white;
+    padding: 20px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.nav-1 a{
+    color: white;
+    display: flex;
+}
+.header .nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-right: 90px;
+    
+}
+.istbutton{
+    height: 36px;
+    width: 130px;
+    background-color: rgb(233, 50, 233);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.about-container{
+    height: 700px;
+    width: 1200px;
+    background-color:#F9FAFB;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    position: relative;
+    color: #000000;
+    box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 7)
+}
+.about-container .top{
+    height: 50%;
+    display: flex;
+}
+.about-container .left{
+    width: 50%;
+}
+.left h1{
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+.left p{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.top img{
+    height: 300px;
+    width: 370px;
+    border-radius: 9px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.about-container .bottom{
+    height: 50%;
+    display: flex;
+}
+
+.about-container .bottom .right1{
+    width: 50%;
+}
+.bottom .right1 p{
+   margin-left: 180px;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.bottom img{
+    height: 300px;
+    width: 370px;border-radius: 9px;
+    margin-left: 100px;
+}
+footer .container{
+    background-color: #F9FAFB;
+    height: 200px ;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+}
+.container .sea .icon{
+  padding: 10px;
+  line-height: 30px;
+  margin-top: 20px;
+  
+}
+
+.sea #ic{
+    margin-top: 66px;
+}
+.sea i{
+    color: purple;
+}
+.container .quick, .quick2 ,.cintact{
+    line-height: 30px;
+}
+.container a{
+    color:#374151;
+    text-decoration: none;
+}
+.container a:hover{
+    color: #7330A6;
+}
